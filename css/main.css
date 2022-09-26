@@ -1,0 +1,15 @@
+@import "components/top-header.css";
+@import "components/site-header.css";
+@import "components/nav-header.css";
+@import "components/hero.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,39 @@
+.top-header {
+  background-color: black;
+  display:flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 14px 8px;
+  align-items: center;
+}
+
+.top-header :first-child {
+  margin-right: 10px;
+}
+
+.top-header a {
+  color:white ;
+}
+
+.top-header a:nth-child(2){
+  display: none;
+}
+
+.top-header a:last-child{
+  display: none;
+}
+
+@media (min-width:900px) {
+
+  .top-header {
+    font-size: .9rem;
+  }
+  .top-header a:nth-child(2){
+    display:inline;
+  }
+
+  .top-header a:last-child{
+    display:inline;
+  }
+
+}
