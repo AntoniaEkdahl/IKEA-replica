@@ -1,0 +1,80 @@
+.hero {
+  padding: 0 48px;
+}
+
+.hero .btn
+{
+  display: none;
+  font-weight: bold;
+}
+
+.hero > .hero-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.hero h1 {
+  margin-bottom: 15px;
+}
+
+.hero .hero-grid img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero .hero-grid {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto repeat(3, 1fr);
+  margin-bottom: 30px;
+}
+
+.hero-grid .grid-1 {
+  grid-column: span 2;
+  grid-row: span 3;
+  position: relative;
+}
+
+.hero .mobile-offer {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 10px;
+}
+
+.hero .mobile-offer div:first-child:hover {
+  text-decoration: underline;
+}
+
+.hero .mobile-offer .bi {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 900px) {
+  .hero .mobile-offer {
+    display: none;
+  }
+
+  .hero .btn {
+    display: inline-flex;
+    align-self: end;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .hero .hero-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .hero-grid .grid-1 {
+    grid-row: span 2 ;
+  }
+}
+
+

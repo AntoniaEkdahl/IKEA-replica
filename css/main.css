@@ -2,6 +2,7 @@
 @import "components/site-header.css";
 @import "components/nav-header.css";
 @import "components/hero.css";
+@import "components/label-on-pic.css";
 
 * {
   margin: 0;
