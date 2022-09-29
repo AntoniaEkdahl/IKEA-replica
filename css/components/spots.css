@@ -1,0 +1,8 @@
+.spots {
+  padding: 0 48px;
+}
+
+.spots > h2 {
+  margin-bottom: 50px;
+  font-size: 1.8rem;
+}

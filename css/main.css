@@ -3,6 +3,8 @@
 @import "components/nav-header.css";
 @import "components/hero.css";
 @import "components/label-on-pic.css";
+@import "components/spots.css";
+@import "components/info-card.css";
 
 * {
   margin: 0;

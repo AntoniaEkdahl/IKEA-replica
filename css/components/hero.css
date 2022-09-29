@@ -1,5 +1,6 @@
 .hero {
   padding: 0 48px;
+  margin-bottom: 100px;
 }
 
 .hero .btn
@@ -17,6 +18,7 @@
 
 .hero h1 {
   margin-bottom: 15px;
+  font-size: 1.7rem;
 }
 
 .hero .hero-grid img {
@@ -29,7 +31,7 @@
   display: grid;
   gap: 15px;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto repeat(3, 1fr);
+  /* grid-template-rows: auto repeat(3, 1fr); */
   margin-bottom: 30px;
 }
 
@@ -43,7 +45,7 @@
   display: flex;
   justify-content: space-between;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: .9rem;
   padding: 10px;
 }
 
