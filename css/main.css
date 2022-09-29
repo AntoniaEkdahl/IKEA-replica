@@ -5,6 +5,7 @@
 @import "components/label-on-pic.css";
 @import "components/spots.css";
 @import "components/info-card.css";
+@import "components/bottom-hero.css";
 
 * {
   margin: 0;
