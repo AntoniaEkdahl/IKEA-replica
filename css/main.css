@@ -29,3 +29,14 @@ a:hover {
   color: black;
 }
 
+.home-btn {
+  font-size: 1.5rem;
+  position: fixed;
+  bottom: 30px;
+  left: 13px;
+}
+
+
+
+
+
