@@ -1,3 +1,13 @@
+.accordion-item {
+  border: none;
+  border-bottom: 1px solid rgb(206, 199, 199) ;
+}
+
+.accordion-button {
+  padding-left: 0;
+  padding-bottom: 30px;
+}
+
 .accordion ul > li {
   padding: 12px 0;
 }
@@ -12,6 +22,12 @@ padding: 0;
   text-decoration: underline;
 }
 
-.accordion accordion-button:defined {
+.accordion-button:focus {
+ background-color: white;
+ box-shadow: none;
+}
+
+.accordion-button:enabled{
+  background-color: white;
   color: black;
 }
