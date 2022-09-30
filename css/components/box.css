@@ -1,0 +1,43 @@
+.box {
+  width: 100%;
+}
+
+.box > div:first-child {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.box > div:nth-child(2){
+margin-bottom: 20px;
+}
+
+.box > .box-btn {
+  display: inline-flex;
+  align-self: end;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 25px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ikea-business {
+  margin-bottom: 50px;
+}
+
+
+@media (min-width:900px) {
+
+  .box-container {
+    padding-right: 8%;
+    margin-bottom: 50px;
+  }
+
+  .box-container {
+    flex-basis: 30%;
+  }
+}

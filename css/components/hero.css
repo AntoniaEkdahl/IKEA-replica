@@ -31,14 +31,18 @@
   display: grid;
   gap: 15px;
   grid-template-columns: repeat(2, 1fr);
-  /* grid-template-rows: auto repeat(3, 1fr); */
+  grid-template-rows: 40em 5em 5em 5em 5em 5em 5em;
   margin-bottom: 30px;
 }
 
 .hero-grid .grid-1 {
   grid-column: span 2;
-  grid-row: span 3;
+  /* grid-row: span 3; */
   position: relative;
+}
+
+.hero-grid .grid-2 {
+  grid-row: 2 / 5;
 }
 
 .hero .mobile-offer {

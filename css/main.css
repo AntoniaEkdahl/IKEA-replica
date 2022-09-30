@@ -6,6 +6,12 @@
 @import "components/spots.css";
 @import "components/info-card.css";
 @import "components/bottom-hero.css";
+@import "components/box.css";
+@import "components/accordion.css";
+@import "components/social-list.css";
+@import "components/country.css";
+@import "components/footer-links.css";
+@import "components/footer-container.css";
 
 * {
   margin: 0;
@@ -17,3 +23,9 @@ a {
   text-decoration: none;
   color: black;
 }
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+

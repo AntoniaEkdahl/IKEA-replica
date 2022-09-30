@@ -1,0 +1,25 @@
+
+.footer-links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 0.8rem;
+}
+
+.footer-links ul > li {
+  width: auto;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width:900px) {
+  .small-container {
+    display: flex;
+  }
+
+  .footer-links {
+    text-align: end;
+  }
+}

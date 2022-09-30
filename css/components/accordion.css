@@ -1,0 +1,17 @@
+.accordion ul > li {
+  padding: 12px 0;
+}
+
+.accordion ul {
+list-style: none;
+padding: 0;
+}
+
+.accordion a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.accordion accordion-button:defined {
+  color: black;
+}

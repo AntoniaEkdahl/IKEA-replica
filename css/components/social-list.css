@@ -1,0 +1,16 @@
+.social-list {
+  padding: 0 48px;
+  display: flex;
+  gap: 50px;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.social-list a:hover {
+color: black;
+}
+
+
+.accordion-button:active {
+  color: black;
+}
