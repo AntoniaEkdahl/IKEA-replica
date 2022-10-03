@@ -1,0 +1,39 @@
+.nav-products {
+  margin-bottom: 100px;
+}
+
+.nav-products ol{
+  display: flex;
+  gap: 10px;
+  font-size: .8rem;
+  list-style: none;
+
+}
+
+.nav-products li {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-products li::before {
+  content: ">";
+  font-size: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.nav-products .none {
+  display: none;
+}
+
+@media (min-width: 900px) {
+
+  .nav-products .none {
+     display: flex;
+   }
+ 
+   .nav-products .none-m {
+     display: none;
+   }
+ }
