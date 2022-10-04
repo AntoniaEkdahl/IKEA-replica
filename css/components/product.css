@@ -66,6 +66,10 @@
   background-color:#024279;
 }
 
+.wish-btn {
+  display: none;
+}
+
 @media (min-width: 900px) {
   .product .product-img .img-none {
     display: inline-block
@@ -106,6 +110,7 @@
    }
 
    .wish-btn {
+    display: inline-block;
     border: 1px solid black;
     border-radius: 50%;
     padding: 10px 15px;

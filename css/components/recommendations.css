@@ -1,0 +1,25 @@
+.recommendations {
+  padding: 0 48px;
+}
+
+.img-container-2 {
+  width: 2rem;
+}
+
+.product-card img {
+ max-width: 100%;
+max-width: 100%;
+}
+
+.product-card .product-name:hover {
+  text-decoration: underline;
+}
+
+.product-card .add-basket circle {
+  position: absolute;
+}
+.product-card .add-basket i {
+  position: relative;
+  right: 28px;
+  color: white;
+}
