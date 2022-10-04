@@ -1,0 +1,118 @@
+.product {
+  padding: 0 48px;
+  position: relative;
+}
+.product .product-img .img-none {
+  display: none;
+}
+
+.product .product-img img {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.product .product-img > span {
+  background-color: red;
+  color: white;
+  padding: 2px 9px;
+  position: absolute;
+}
+
+.product-text .ikea-family {
+  color: rgb(16, 112, 213);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.product-text .product-info > div:first-child {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  font-size: 1.1rem;
+}
+
+.product-text .product-info {
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.product-text .ikea-price {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.product-text .ord-price,
+.price-moms,
+.offer-time {
+  font-size: 0.8rem;
+}
+
+.rating .review-count:hover {
+  text-decoration: underline;
+}
+
+.cart-btn {
+  border: 1px solid #0058a3 ;
+  background-color:  #0058a3;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.cart-btn:hover {
+  color: white;
+  background-color:#024279;
+}
+
+@media (min-width: 900px) {
+  .product .product-img .img-none {
+    display: inline-block
+  }
+
+  .product {
+    display: flex;
+    gap: 30px;
+  }  
+
+  .product .product-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 20px;
+  }
+
+
+  .product .product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+    .product .product-info-container {
+      padding: 0 25px;
+    }
+
+   .container-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+   } 
+   
+   .cart-btn {
+    flex-grow: 1;
+   }
+
+   .wish-btn {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin-bottom: 45px;
+   }
+
+   .wish-btn:hover {
+    border: 2px solid black;
+   }
+}

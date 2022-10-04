@@ -1,0 +1,20 @@
+
+
+.img-container-1 {
+  width: 4rem;
+}
+
+.img-container-2 {
+  width: 2rem;
+}
+
+.add-product > .add-container img {
+ max-width: 100%;
+max-width: 100%;
+}
+
+
+.add-product .product-name:hover {
+  text-decoration: underline;
+}
+
