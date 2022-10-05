@@ -60,7 +60,7 @@ input:hover {
   .cart-section {
     grid-column: 9 / 13;
     position: sticky;
-    top: 100px;
+    top: 20px;
   }
 
   .nr-1 {
