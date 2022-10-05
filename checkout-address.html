@@ -1,34 +1,279 @@
 <!DOCTYPE html>
 <html lang="sv">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
-/>
-<link
-  rel="stylesheet"
-  href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-/>
-<link rel="stylesheet" href="css/checkout-address.css">
-<link rel="stylesheet" href="css/product-details.css" />
-<link rel="stylesheet" href="css/main.css" />
-<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-  <title>Välj leveransalternativ - IKEA </title>
-</head>
-<body>
-  <header>
-    <div class="site-header d-flex justify-content-start">
-      <div>
-        <img
-          src="https://www.ikea.com/se/sv/static/ikea-logo.f7d9229f806b59ec64cb.svg"
-          alt="IKEA logo"
-        />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/checkout-address.css" />
+    <link rel="stylesheet" href="css/product-details.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Välj leveransalternativ - IKEA</title>
+  </head>
+  <body>
+    <header>
+      <div class="site-header d-flex justify-content-start">
+        <div>
+          <a href="#">
+            <img
+              src="https://www.ikea.com/se/sv/static/ikea-logo.f7d9229f806b59ec64cb.svg"
+              alt="IKEA logo"
+            />
+          </a>
+        </div>
       </div>
-    </div>
+    </header>
+    <main>
+      <section class="mb-5">
+        <div class="cart mb-5">
+          <div class="d-flex justify-content-between mb-3">
+            <h5 class="fw-bold">Din varukorg</h5>
+            <a href="#" class="text-decoration-underline">Ändra</a>
+          </div>
+          <div class="product-checkout d-flex gap-4">
+            <img
+              src="https://www.ikea.com/se/sv/images/products/taernaby-bordslampa-antracit__0591525_pe674188_s3.jpg"
+              alt=""
+            />
+            <div class="product-info-checkout w-100">
+              <div class="name-checkout fw-bold">TÄRNABY</div>
+              <div class="name-info-checkout">bordslampa, antracit</div>
+              <div class="amount-checkout">Antal: 1</div>
+            </div>
+            <div class="fw-bold">249:-</div>
+          </div>
+        </div>
+        <div class="order mb-5">
+          <h5 class="fw-bold mb-3">Din beställning</h5>
+          <div
+            class="product-price-checkout d-flex justify-content-between mb-3"
+          >
+            <div>Produktpris</div>
+            <div>249:-</div>
+          </div>
+          <div class="price-pickup d-flex justify-content-between mb-3">
+            <div>Pris för upphämtning</div>
+            <div>49:-</div>
+          </div>
+          <hr class="opacity-100" />
+          <div
+            class="total-price-checkout d-flex justify-content-between mb-3 fw-bold"
+          >
+            <div>Totalpris</div>
+            <div class="fs-5">298:-</div>
+          </div>
+          <div class="no-moms d-flex justify-content-between mb-3">
+            <div>Exlusive moms</div>
+            <div>238,40:-</div>
+          </div>
+          <div class="with-moms d-flex justify-content-between mb-3">
+            <div>Moms</div>
+            <div>59,60:-</div>
+          </div>
+        </div>
+        <div class="info-links-checkout mb-5">
+          <div class="d-flex gap-3 fw-bold mb-3">
+            <div>
+              <a href="#">
+                <i class="bi bi-calendar-heart"></i>
+              </a>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-underline"
+                >365 dagar att ändra dig</a
+              >
+            </div>
+          </div>
+          <div class="d-flex gap-3 fw-bold">
+            <div>
+              <i class="bi bi-lock"></i>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-underline"
+                >Säker shopping med SSL datakryptering</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mb-5">
+        <div class="mb-4">
+          <svg height="40" width="40">
+            <circle cx="20" cy="20" r="15" fill="white" stroke="black" />
+            <text
+              x="50%"
+              y="50%"
+              text-anchor="middle"
+              fill="black"
+              font-size="1rem"
+              font-family="Arial"
+              dy=".3em"
+            >
+              1
+            </text>
+          </svg>
+        </div>
+        <div class="d-flex justify-content-between mb-3">
+          <h5 class="fw-bold">Hämta din beställning här</h5>
+          <a href="#" class="text-decoration-underline">Ändra</a>
+        </div>
+        <div class="pickup-order mb-3">
+          <div class="fw-bold">Click & Collekt drive-thru</div>
+          <div>IKEA Malmö</div>
+          <div>Kulthusgatan 1 21586 Malmö</div>
+        </div>
+        <div class="time-pickup mb-3">
+          <div class="fw-bold">Tid för upphämtning</div>
+          <div>2022-10-05 09:00-10:00</div>
+        </div>
+        <div>
+          Ordern hämtas utanför valt varuhus inom bokat tidsintervall och senast
+          24 timmar efter. Vänligen invänta avisering från IKEA innan du åker
+          till ditt varuhus.
+        </div>
+      </section>
+      <section class="mb-5">
+        <div class="mb-4">
+          <svg height="40" width="40">
+            <circle cx="20" cy="20" r="15" fill="black" stroke="black" />
+            <text
+              x="50%"
+              y="50%"
+              text-anchor="middle"
+              fill="white"
+              font-size="1rem"
+              font-family="Arial"
+              dy=".3em"
+            >
+              2
+            </text>
+          </svg>
+        </div>
+        <h5 class="fw-bold mb-4">Adress</h5>
+        <div class="gap-4 mb-4">
+          <input type="checkbox" name="checkbox" id="checkbox" />
+          <label for="checkbox">Jag är företagskund</label>
+        </div>
+        <form>
+          <div class="fw-bold mb-3">Fakturaadress</div>
+          <div class="d-flex flex-column">
+            <div class="name d-flex gap-3">
+            <div class="first-name d-flex flex-column w-50">
+              <label for="first-name">Förnamn *</label>
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                size="30"
+                required
+              />
+            </div>
+            <div class="last-name d-flex flex-column w-50">
+              <label for="last-name">Efternamn *</label>
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                size="30"
+                required
+              />
+            </div>
+          </div>
+            <div class="email d-flex flex-column">
+              <label for="email">E-postadress *</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div class="telNo d-flex flex-column">
+              <label for="telNo">Mobiltelefonnummer *</label>
+              <div class="telNo-box d-flex gap-3">
+              <select name="country-code" id="country-code">
+                <option value="SE (+46)">SE (+46)</option>
+                <option value="DK (+45)">DK (+45)</option>
+                <option value="IT (+39)">IT (+39)</option>
+                <option value="NO (+47)">NO (+47)</option>
+              </select>
+              <input type="tel" name="telNo" id="telNo" class="flex-grow-1" required />
+            </div>  
+            </div>
+            <div class="country-form d-flex flex-column">
+              <label for="country">Land</label>
+              <select name="country" id="country">
+                <option value="Sverige">Sverige</option>
+                <option value="Danmark">Danmark</option>
+                <option value="Italien">Italien</option>
+                <option value="Norge">Norge</option>
+              </select>
+            </div>
+            <div class="street d-flex flex-column">
+              <label for="street">Gatuadress *</label>
+              <input type="text" name="street" id="street" required />
+            </div>
+            <div class="care-of d-flex flex-column">
+              <label for="care-of">C/O (valfritt)</label>
+              <input type="text" name="care-of" id="care-of" />
+            </div>
+            <div class="zipcode d-flex flex-column">
+              <label for="zipcode">Postnummer *</label>
+              <input type="text" name="zipcode" id="zipcode" required />
+            </div>
+            <div class="city d-flex flex-column">
+              <label for="city">Ort *</label>
+              <input
+                type="text"
+                name="city"
+                id="city"
+                required
+                class="mb-5"
+              />
+            </div>
+          </div>
+          <div class="ikea-family mb-5">
+            <div class="fw-bold mb-2">IKEA Family</div>
+            <div class="text-decoration-underline">
+              <a href="#">Skriv in ditt IKEA Family kortnummer</a>
+            </div>
+          </div>
+          <div>
+            Genom att klicka på Fortsätt har jag läst och förstått IKEA
+            <a href="#" class="text-decoration-underline mb-3"
+              >integritetspolicy</a
+            >
+          </div>
+          <div class="btn">
+            <button>Fortsätt</button>
+          </div>
+        </form>
+      </section>
+      <section>
+        <div class="d-flex mb-4 gap-3">
+          <svg height="40" width="40">
+            <circle cx="20" cy="20" r="15" fill="white" stroke="grey" />
+            <text
+              x="50%"
+              y="50%"
+              text-anchor="middle"
+              fill="grey"
+              font-size="1rem"
+              font-family="Arial"
+              dy=".3em"
+            >
+              3
+            </text>
+          </svg>
+          <div class="mt-2">
+          <h5 class="fw-bold mb-4 text-black-50">Betalning</h5>
+          </div>
+        </div>
+      </section>
 
-
-</body>
+    </main>
+  </body>
 </html>
