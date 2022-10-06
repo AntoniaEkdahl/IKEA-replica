@@ -1,0 +1,35 @@
+.product-info-container .product-text .ikea-family {
+  color: rgb(16, 112, 213);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.product-info-container .product-text .product-info > div:first-child {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  font-size: 1.1rem;
+}
+
+.product-info-container .product-text .product-info {
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.product-info-container .product-text .ikea-price {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.product-info-container .product-text .ord-price,
+.price-moms,
+.offer-time {
+  font-size: 0.8rem;
+}
+
+@media (min-width:900px) {
+  .product-info-container {
+    padding: 0 25px;
+  }
+}

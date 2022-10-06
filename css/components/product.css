@@ -18,41 +18,11 @@
   position: absolute;
 }
 
-.product-text .ikea-family {
-  color: rgb(16, 112, 213);
-  font-weight: bold;
-  font-size: 0.9rem;
-}
-
-.product-text .product-info > div:first-child {
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 2px;
-  font-size: 1.1rem;
-}
-
-.product-text .product-info {
-  margin-bottom: 5px;
-  font-size: 1rem;
-}
-
-.product-text .ikea-price {
-  font-weight: bold;
-  font-size: 1.8rem;
-  margin-bottom: 5px;
-}
-
-.product-text .ord-price,
-.price-moms,
-.offer-time {
-  font-size: 0.8rem;
-}
-
-.rating .review-count:hover {
+.product .rating .review-count:hover {
   text-decoration: underline;
 }
 
-.cart-btn {
+.product .container-btn .cart-btn {
   border: 1px solid #0058a3 ;
   background-color:  #0058a3;
   color: #ffffff;
@@ -61,14 +31,32 @@
   border-radius: 30px;
 }
 
-.cart-btn:hover {
+.product .container-btn .cart-btn:hover {
   color: white;
   background-color:#024279;
 }
 
-.wish-btn {
+.product .container-btn .wish-btn {
   display: none;
 }
+
+.product .img-container-1 {
+  width: 4rem;
+}
+
+.product .img-container-2 {
+  width: 2rem;
+}
+
+.product .add-product > .add-container img {
+ max-width: 100%;
+max-width: 100%;
+}
+
+.product .add-product .product-name:hover {
+  text-decoration: underline;
+}
+
 
 @media (min-width: 900px) {
   .product .product-img .img-none {
@@ -87,29 +75,24 @@
     gap: 20px;
   }
 
-
   .product .product-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     }
 
-    .product .product-info-container {
-      padding: 0 25px;
-    }
-
-   .container-btn {
+  .product .container-btn {
     display: flex;
     align-items: center;
     gap: 20px;
     justify-content: center;
    } 
    
-   .cart-btn {
+   .product .container-btn .cart-btn {
     flex-grow: 1;
    }
 
-   .wish-btn {
+   .product .container-btn .wish-btn {
     display: inline-block;
     border: 1px solid black;
     border-radius: 50%;
@@ -117,7 +100,7 @@
     margin-bottom: 45px;
    }
 
-   .wish-btn:hover {
+   .product .container-btn .wish-btn:hover {
     border: 2px solid black;
    }
 }

@@ -1,8 +1,8 @@
-.recommendations {
+.product-card-recommendations {
   padding: 0 48px;
 }
 
-.img-container-2 {
+.product-card .img-container-2 {
   width: 2rem;
 }
 
@@ -23,3 +23,5 @@ max-width: 100%;
   right: 28px;
   color: white;
 }
+
+
