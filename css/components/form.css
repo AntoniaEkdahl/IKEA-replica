@@ -1,0 +1,30 @@
+
+label,
+input,
+fieldset,
+select {
+  margin-bottom: 5px;
+}
+
+form input,
+select {
+  height: 40px;
+  padding: 10px;
+}
+input:hover {
+  border: 2px solid blue;
+}
+
+ .btn button {
+  background-color: #0058a3;
+  color: white;
+  border-radius: 30px;
+  padding: 15px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.btn {
+  text-align: center;
+  width: 100%;
+}

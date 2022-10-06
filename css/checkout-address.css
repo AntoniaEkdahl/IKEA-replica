@@ -1,6 +1,7 @@
-section{
-  padding: 0 48px;
-}
+@import "components/form.css";
+@import "components/cart-section.css";
+
+
 
 .nr-1,
 .nr-2,
@@ -8,59 +9,11 @@ section{
   padding-left: 48px;
 }
 
-.product-checkout img {
-width: 4rem;
-}
-
-.info-links-checkout {
-  font-size: .8rem;
-}
-
-label,
-input,
-fieldset,
-select {
-  margin-bottom: 5px;
-}
-
-form input,
-select {
-  height: 40px;
-  padding: 10px;
-}
-input:hover {
-  border: 2px solid blue;
-}
-
- .btn button {
-  background-color: #0058a3;
-  color: white;
-  border-radius: 30px;
-  padding: 15px;
-  width: 100%;
-  margin-top: 20px;
-}
-
-.btn {
-  text-align: center;
-  width: 100%;
-}
-
-.see-info {
-  display: none;
-}
-
 @media (min-width:900px){
-  main {
+  .main-checkout {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 20em 70em 10em;
-  }
-
-  .cart-section {
-    grid-column: 9 / 13;
-    position: sticky;
-    top: 20px;
   }
 
   .nr-1 {
@@ -88,20 +41,6 @@ input:hover {
   }
   .section-3 {
     grid-column: 2 / 9;
-  }
-
-  .product-info-checkout,
-  .price-per-product {
-    display: none;
-  }
-
-  .see-info {
-    display: flex;
-    font-size: 2.5rem;
-  }
-
-  .product-checkout {
-    justify-content: space-between;
   }
 
 }
